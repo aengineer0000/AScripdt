@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "script-practice",
+    "slug": "script-practice",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "script-practice"
+}
