@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, Button, TextInput } from 'react-native';
 import OpenAI from 'openai';
 import { Feather } from '@expo/vector-icons';
 
-// const apiKey = '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';
+ const apiKey = process.env.OPENAI_API_KEY;
 
 export default function App() {
   const [generatedString, setGeneratedString] = useState('a');
